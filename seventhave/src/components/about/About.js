@@ -4,14 +4,16 @@ import Hero from "../../img/heroimage.png";
 
 const About = () => {
     return (
-        <div className="aboutdiv">
-            <div className="imgcontainer">
+        
+        <div>
+            {/* <div className="imgcontainer"> */}
             <img 
                             src={Hero}
                             alt="Hero Image"
-                            className="c-icon"
+                            className="imgcontainer"
                         />
-            </div>
+            {/* </div> */}
+            <div className="aboutdiv">
             <div className="Abouttextcontainer">
             <h3 className="Abouth3" id="#about">About Us:</h3>
             <p className="Aboutp">
@@ -23,6 +25,7 @@ const About = () => {
             </p>
             <div className="buttoncontainer">
                 <button className="getintouchbutton">Get In Touch</button>
+            </div>
             </div>
             </div>
         </div>
