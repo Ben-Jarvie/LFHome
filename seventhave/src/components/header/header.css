@@ -1,7 +1,7 @@
 .Navbar {
     height: 80px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     background: white;
     transition: 3s;
@@ -10,11 +10,11 @@
 .headercontact {
     background: #8D2B00;
     width: 100vw;
-    height: 7vh;
+    height: 8vh;
 }
 
 .nav-items{
-    margin-left: 5%;
+    /* margin-left: 5%; */
 }
 
 .sticky {
@@ -24,17 +24,18 @@
     z-index: 100;
 }
 
-.Navbar .h2 {
+.Navbar h2 {
     font-family: Lato;
     font-weight: 700;
-    font-size: 21px;
+    font-size: 1.5rem;
     margin: 15px;
     color: black;
+    text-align: center;
 }
 
 .Navbar>.nav-items>a {
     color: #222;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     text-decoration: none;
     margin: 15px;
     position: relative;
@@ -62,7 +63,7 @@
 }
 
 .tourbuttondiv {
-    padding-left: 2%;
+    padding-right: 2%;
 }
 
 .tour {
@@ -89,7 +90,7 @@
     font-family: sans-serif;
 }
 
-  @media (max-width: 830px) {
+  @media (max-width: 971px) {
     .Navbar>.nav-items {
         display: flex;
         flex-direction: column;
@@ -111,7 +112,7 @@
     .Navbar>.nav-items.open {
         transform: translateX(0);
         margin-left: -0.1px;
-        margin-top: 1.8rem;
+        margin-top: 4rem;
     }
 
 
@@ -138,6 +139,7 @@
         align-items: center;
         justify-content: center;
         cursor: pointer;
+        z-index: 100;
       }
       .nav-toggle>.bar {
         position: relative;

@@ -14,7 +14,12 @@ const Header = () => {
      
     return (
       <nav className={`${sticky ? "sticky" : ""}`}>
-      <div className="headercontact"></div>
+      <div className="headercontact">
+      <a href="mailto:canasmh@yahoo.com" class="contact__link" target="_blank"><i class="fa-solid fa-envelope contact__icon"></i></a>
+        <a className="headercontact"></a>
+        <a className="headercontact"></a>
+        <a className="headercontact"></a>
+      </div>
       <div className="Navbar" >
       <div
           className={`nav-toggle ${Open && "open"}`}

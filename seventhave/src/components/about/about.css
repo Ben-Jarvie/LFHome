@@ -1,0 +1,66 @@
+/* .aboutdiv {
+    bg-img: 
+} */
+
+.aboutdiv {
+    background: papayawhip;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 4%;
+}
+
+.imgcontainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.Abouttextcontainer {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding: 2%;
+    background: white;
+    /* width: 780px;
+    height: 80vh; */
+}
+
+.Abouth3 {
+    text-align: center;
+}
+
+.Aboutp {
+    padding-left: 4%;
+    padding-right: 4%;
+    text-align: center;
+}
+
+.buttoncontainer {
+    display: flex;
+    justify-content: center;
+}
+
+.getintouchbutton {
+        cursor: pointer;
+        background: #8D2B00;
+        color: white;
+        width: 130px;
+        height: 45px;
+        box-sizing: border-box;
+        border-radius: 25px;
+        padding: 1%;
+        box-shadow: 5px black;
+        font-family: sans-serif;
+        box-shadow: 4px 5px 5px 1px rgba(0,0,0,0.5);
+}
+
+.getintouchbutton:active {
+    width: 130px;
+    height: 40px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    padding: 1%;
+    box-shadow: none;
+    font-family: sans-serif;
+}
