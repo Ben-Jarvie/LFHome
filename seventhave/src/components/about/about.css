@@ -8,11 +8,14 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 4%;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 2%;
 }
 
 .imgcontainer {
     width: 100%;
+    height: 65vh;
 }
 
 .Abouttextcontainer {
@@ -42,7 +45,7 @@
 
 .getintouchbutton {
         cursor: pointer;
-        background: #8D2B00;
+        background: #FC6A03;
         color: white;
         width: 130px;
         height: 45px;
