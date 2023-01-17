@@ -1,5 +1,8 @@
-import "./header.css";
+ import "./header.css";
 import React, { useState, useEffect } from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import Logo from "../../img/logo.png";
 
 const Header = () => {
@@ -16,10 +19,17 @@ const Header = () => {
     return (
       <nav className={`${sticky ? "sticky" : ""}`}>
       <div className="headercontact">
-      <a href="mailto:canasmh@yahoo.com" class="contact__link" target="_blank"><i class="fa-solid fa-envelope contact__icon"></i></a>
-        <a className="headercontact"></a>
-        <a className="headercontact"></a>
-        <a className="headercontact"></a>
+        <div className='socialmediaicons'>
+          <a href="https://www.facebook.com/profile.php?id=100089494389145">
+          <FontAwesomeIcon icon={faFacebook} className="facebook"/>
+          </a>
+          <a href="https://www.instagram.com/hope_love_and_faith_homes/">
+          <FontAwesomeIcon icon={faInstagram} className="instagram"/>
+          </a>
+          <a href="mailto:dawn@lovehopefaithhomes.com">
+          <FontAwesomeIcon icon={faEnvelope} className="email"/>
+          </a>
+      </div>
       </div>
       <div className="Navbar" >
       <div

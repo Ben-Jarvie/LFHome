@@ -13,9 +13,54 @@
 }
 
 .headercontact {
+    display: flex;
+    justify-content: flex-end;
     background: #FC6A03;
     width: 100vw;
     height: 8vh;
+}
+
+.socialmediaicons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 300px;
+}
+
+.facebook {
+    width: 2em;
+    height: 2em;
+    color: white
+}
+
+.facebook:hover {
+    width: 3em;
+    height: 3em;
+    color: #4267B2
+}
+
+.instagram {
+    width: 2em;
+    height: 2em;
+    color: white
+}
+
+.instagram:hover {
+    width: 3em;
+    height: 3em;
+    color: #833AB4
+}
+
+.email {
+    width: 2em;
+    height: 2em;
+    color: white
+}
+
+.email:hover {
+    width: 3em;
+    height: 3em;
+    color: black
 }
 
 .nav-items{
