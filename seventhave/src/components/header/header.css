@@ -7,9 +7,8 @@
     transition: 3s;
 }
 
-.logo {
-    height: 9vh;
-    width: 5vw;
+.headercontact h2 {
+    display: none;
 }
 
 .headercontact {
@@ -76,6 +75,17 @@
 
 .brandnamelogo {
     display: flex;
+    margin-left: -18%;
+}
+
+.logo {
+    height: 80px;
+    width: 80px;
+}
+
+.Navbar {
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .Navbar h2 {
@@ -85,14 +95,13 @@
     margin-left: 15px;
     margin-top: 8%;
     color: black;
-    text-align: center;
 }
 
 .Navbar>.nav-items>a {
     color: #222;
     font-size: 1.8rem;
     text-decoration: none;
-    margin: 15px;
+    margin: 35px;
     position: relative;
     opacity: 0.9;
     text-align: center;
@@ -143,6 +152,27 @@
     padding: 1%;
     box-shadow: none;
     font-family: sans-serif;
+}
+
+@media (max-width: 1620px) {
+    .headercontact h2 {
+        display: unset;
+        position: absolute;
+        left: 20px;
+        top: 0px;
+        font-family: 'Lobster Two', cursive;
+        font-weight: 700;
+        font-size: 1.5rem;
+    }
+
+    .Navbar h2 {
+        display: none;
+    }
+
+    .brandnamelogo {
+        justify-content: space-between;
+        margin-left: 0%;
+    }
 }
 
   @media (max-width: 971px) {
@@ -231,6 +261,24 @@
     }
     .nav-toggle.open>.bar::after {
         transform: rotate(-45deg) translate(26px, 26px);
+    }
+}
+
+@media (max-width: 1000px) {
+    .Navbar>.nav-items>a {
+        margin: 15px;
+    }
+
+    .Navbar {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .socialmediaicons {
+        width: 200px;
     }
 }
 

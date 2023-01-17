@@ -19,6 +19,7 @@ const Header = () => {
     return (
       <nav className={`${sticky ? "sticky" : ""}`}>
       <div className="headercontact">
+      <h2 className="LFH">Love, Hope and Faith Home</h2>
         <div className='socialmediaicons'>
           <a href="https://www.facebook.com/profile.php?id=100089494389145">
           <FontAwesomeIcon icon={faFacebook} className="facebook"/>
