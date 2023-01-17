@@ -4,15 +4,12 @@ import Hero from "../../img/heroimage.png";
 
 const About = () => {
     return (
-        
         <div>
-            {/* <div className="imgcontainer"> */}
             <img 
-                            src={Hero}
-                            alt="Hero Image"
-                            className="imgcontainer"
-                        />
-            {/* </div> */}
+                src={Hero}
+                alt="Hero Image"
+                className="imgcontainer"
+            />
             <div className="aboutdiv">
             <div className="Abouttextcontainer">
             <h3 className="Abouth3" id="#about">About Us:</h3>

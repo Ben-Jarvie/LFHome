@@ -1,5 +1,6 @@
 import "./header.css";
 import React, { useState, useEffect } from "react";
+import Logo from "../../img/logo.png";
 
 const Header = () => {
     const [Open, setOpen] = useState(false);
