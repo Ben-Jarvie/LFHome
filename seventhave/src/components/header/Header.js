@@ -28,6 +28,11 @@ const Header = () => {
         >
           <div className="bar"></div>
         </div>
+        <img 
+                src={Logo}
+                alt="Logo of hands giving and tree's growing"
+                className="logo"
+            />
         <h2 className="LFH">Love, Hope and Faith Home</h2>
         <div className={`nav-items ${Open && "open"}`}>
           <a href="/about">About</a>

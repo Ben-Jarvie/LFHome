@@ -7,6 +7,11 @@
     transition: 3s;
 }
 
+.logo {
+    height: 9vh;
+    width: 5vw;
+}
+
 .headercontact {
     background: #FC6A03;
     width: 100vw;
