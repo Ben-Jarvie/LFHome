@@ -16,7 +16,7 @@
     justify-content: flex-end;
     background: #FC6A03;
     width: 100vw;
-    height: 8vh;
+    height: 6vh;
 }
 
 .socialmediaicons {
@@ -155,7 +155,7 @@
         display: unset;
         position: absolute;
         left: 50px;
-        top: 0px;
+        top: -10px;
         font-family: 'Lobster Two', cursive;
         font-weight: 700;
         font-size: 1.5rem;
@@ -187,13 +187,13 @@
         flex-direction: column;
         background: papayawhip;
         position: absolute;
-        top: 80px;
+        top: 64px;
         left: 0;
-        height: 100%;
+        height: 90vh;
         width: 100%;
         transform: translateX(-105%);
         transition: all .40s;
-        z-index: 23;
+        z-index: 230;
     }
 
     .Navbar>.nav-items>a::before {
@@ -298,12 +298,27 @@
         width: 2em;
     }
 
+    .facebook:hover {
+        height: 2em;
+        width: 2em;
+    }
+
     .instagram {
         height: 2em;
         width: 2em;
     }
 
+    .instagram:hover {
+        height: 2em;
+        width: 2em;
+    }
+
     .email {
+        height: 2em;
+        width: 2em;
+    }
+
+    .email:hover {
         height: 2em;
         width: 2em;
     }
@@ -324,11 +339,13 @@
 
     .headercontact h2{
         font-size: 1.25rem;
+        top: -5px;
         left: 15px;
     }
 
     .Navbar>.nav-items {
-        top: 60px;
+        top: 44px;
+        height: 70vh;
     }
 }
 
