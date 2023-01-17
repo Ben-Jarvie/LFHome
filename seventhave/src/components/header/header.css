@@ -154,7 +154,7 @@
     .headercontact h2 {
         display: unset;
         position: absolute;
-        left: 20px;
+        left: 50px;
         top: 0px;
         font-family: 'Lobster Two', cursive;
         font-weight: 700;
@@ -165,11 +165,21 @@
         display: none;
     }
 
-    .brandnamelogo {
+    .Navbar {
         justify-content: space-between;
-        margin-left: 0%;
+    }
+
+    .brandnamelogo {
+        margin-left: -10%;
     }
 }
+
+@media (max-width: 1150px) {
+    .brandnamelogo {
+        display: flex;
+        margin-left: 0%;
+    }
+} 
 
   @media (max-width: 971px) {
     .Navbar>.nav-items {
@@ -280,22 +290,22 @@
 
 @media (max-width: 550px) {
     .socialmediaicons {
-        width: 150px;
+        width: 200px;
     }
 
     .facebook {
-        height: 1.25em;
-        width: 1.25em;
+        height: 2em;
+        width: 2em;
     }
 
     .instagram {
-        height: 1.25em;
-        width: 1.25em;
+        height: 2em;
+        width: 2em;
     }
 
     .email {
-        height: 1.25em;
-        width: 1.25em;
+        height: 2em;
+        width: 2em;
     }
 
     .tour {
@@ -313,7 +323,8 @@
     }
 
     .headercontact h2{
-        font-size: 1.5rem;
+        font-size: 1.25rem;
+        left: 15px;
     }
 
     .Navbar>.nav-items {
@@ -324,6 +335,36 @@
 @media (max-width: 450px) {
     .socialmediaicons {
         width: 120px;
+    }
+
+    .facebook {
+        height: 1.25em;
+        width: 1.25em;
+    }
+
+    .facebook:hover {
+        height: 1.25em;
+        width: 1.25em;
+    }
+
+    .instagram {
+        height: 1.25em;
+        width: 1.25em;
+    }
+
+    .instagram:hover {
+        height: 1.25em;
+        width: 1.25em;
+    }
+
+    .email {
+        height: 1.25em;
+        width: 1.25em;
+    }
+
+    .email:hover {
+        height: 1.25em;
+        width: 1.25em;
     }
 
     .logo {
