@@ -10,6 +10,9 @@ const About = () => {
                 alt="Hero Image"
                 className="imgcontainer"
             />
+            <div className="aboutbuttoncontainer">
+                <button className="abouttour">Schedule A Tour</button>
+            </div>
             <div className="aboutdiv">
             <div className="Abouttextcontainer">
             <h3 className="Abouth3" id="#about">About Us:</h3>
@@ -20,7 +23,7 @@ const About = () => {
             <p className="Aboutp">
                 Lectus sit amet est placerat. Aliquam sem et tortor consequat id porta. Scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam. Porttitor massa id neque aliquam vestibulum. Orci porta non pulvinar neque laoreet suspendisse interdum. Faucibus turpis in eu mi bibendum. Ante in nibh mauris cursus mattis. Lacus suspendisse faucibus interdum posuere lorem. Fermentum et sollicitudin ac orci phasellus egestas tellus rutrum. Feugiat in ante metus dictum at tempor. Quam elementum pulvinar etiam non quam.
             </p>
-            <div className="buttoncontainer">
+            <div className="aboutbuttoncontainer">
                 <button className="getintouchbutton">Get In Touch</button>
             </div>
             </div>

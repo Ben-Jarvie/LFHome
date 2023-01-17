@@ -1,7 +1,7 @@
-import logo from './logo.svg';
 import './App.css';
 import Header from "./components/header/Header";
 import About from "./components/about/About";
+import Services from "./components/services/Services";
 import Footer from "./components/footer/Footer"
 
 
@@ -11,6 +11,7 @@ const App = () => {
     <div>
       <Header/>
       <About/>
+      <Services/>
       <Footer/>
     </div>
   );
