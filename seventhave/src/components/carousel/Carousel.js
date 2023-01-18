@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useSwipeable } from "react-swipeable";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowLeftLong, faArrowRightLong } from '@fortawesome/free-solid-svg-icons'
 
 import "./carousel.css";
 
@@ -58,16 +60,18 @@ const Carousel = ({ children }) => {
         {React.Children.map(children, (child, index) => {
           return React.cloneElement(child, { width: "100%" });
         })}
-      </div>
-      <div className="indicators">
-        <button
-            className="prevbutton"
-            onClick={() => {
-                updateIndex(activeIndex - 1);
-          }}
-        >
-          Prev
-        </button>
+    </div>
+    <div className="arrowsandindicators">
+      <div className="prevbuttoncontainer">
+            <button 
+                className="prevbutton"
+                onClick={() => {
+                    updateIndex(activeIndex - 1);
+                }}>
+                <FontAwesomeIcon icon={faArrowLeftLong}/>
+            </button>
+        </div>
+        <div className="indicators">
         {React.Children.map(children, (child, index) => {
           return (
             <button
@@ -80,16 +84,18 @@ const Carousel = ({ children }) => {
             </button>
           );
         })}
-        <button
-            className="nextbutton"  
-            onClick={() => {
-                updateIndex(activeIndex + 1);
-          }}
-        >
-          Next
-        </button>
       </div>
+        <div className="nextbuttoncontainer">
+      <button 
+                className="nextbutton"
+                onClick={() => {
+                    updateIndex(activeIndex + 1);
+                }}>
+                <FontAwesomeIcon icon={faArrowRightLong}/>
+            </button>
+        </div>
     </div>
+</div>
   );
 };
 

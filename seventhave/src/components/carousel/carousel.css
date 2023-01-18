@@ -1,10 +1,13 @@
 .carousel {
+    padding-top: 2%;
     overflow: hidden;
+    background-color: papayawhip;
   }
   
   .inner {
     white-space: nowrap;
     transition: transform 0.3s;
+    background-color: papayawhip;
   }
   
   .carousel-item {
@@ -14,11 +17,14 @@
     height: 200px;
     background-color: papayawhip;
     color: #fff;
+    margin-top: 2%;
+    margin-bottom: 2%;
   }
   
   .indicators {
     display: flex;
     justify-content: center;
+    align-items: center;
   }
   
   .indicators > button {
@@ -29,11 +35,34 @@
     background-color: green;
     color: #fff;
   }
+
+  .arrowsandindicators {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: papayawhip;
+    height: 4vh;
+    margin-bottom: 2%;
+  }
   
   .nextbutton {
     
   }
 
+  .nextbuttoncontainer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 10%;
+  }
+
   .prevbutton {
     
+  }
+
+  .prevbuttoncontainer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 10%;
   }
