@@ -4,9 +4,7 @@ import "./services.css";
 const Services = () => {
     return (
         <div>
-            <div className="Servicesbuttoncontainer">
-                <button className="Servicestour">Schedule A Tour</button>
-            </div>
+    
             <div className="Servicesdiv">
             <div className="Servicestextcontainer">
             <h3 className="Servicesh3" id="#services">Services:</h3>
