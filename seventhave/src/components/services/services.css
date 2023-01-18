@@ -11,7 +11,7 @@
     padding-left: 4%;
     padding-right: 4%;
     padding-top: 2%;
-    padding-bottom: 2%;
+    padding-bottom: 4%;
 }
 
 .Servicesbuttoncontainer {
@@ -43,8 +43,7 @@
     align-content: center;
     padding: 2%;
     background: white;
-    /* width: 780px;
-    height: 80vh; */
+    border-radius: 10px;
 }
 
 .Servicesh3 {

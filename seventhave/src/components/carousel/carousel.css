@@ -29,11 +29,14 @@
   
   .indicators > button {
     margin: 5px;
+    border-radius: 25px;
+    color: black;
+    background-color: white;
+    margin-bottom: 10%;
   }
   
   .indicators > button.active {
-    background-color: green;
-    color: #fff;
+    background-color: #FC6A03;
   }
 
   .arrowsandindicators {
@@ -41,12 +44,8 @@
     justify-content: space-between;
     align-items: center;
     background-color: papayawhip;
-    height: 4vh;
+    height: 6vh;
     margin-bottom: 2%;
-  }
-  
-  .nextbutton {
-    
   }
 
   .nextbuttoncontainer {
@@ -56,8 +55,14 @@
     margin-right: 10%;
   }
 
-  .prevbutton {
-    
+  .nextbutton {
+    border: none;
+    background-color: papayawhip;
+  }
+
+  .rightarrow {
+    height: 35px;
+    width: 35px;
   }
 
   .prevbuttoncontainer {
@@ -65,4 +70,20 @@
     justify-content: flex-start;
     align-items: center;
     margin-left: 10%;
+  }
+
+  .prevbutton {
+    border: none;
+    background-color: papayawhip;
+  }
+
+  .leftarrow {
+    height: 35px;
+    width: 35px;
+  }
+
+  @media (max-width: 1024px) {
+    .arrowsandindicators {
+        display: none;
+    }
   }

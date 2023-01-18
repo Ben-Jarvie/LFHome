@@ -154,7 +154,7 @@
     .headercontact h2 {
         display: unset;
         position: absolute;
-        left: 50px;
+        left: 10px;
         top: -10px;
         font-family: 'Lobster Two', cursive;
         font-weight: 700;
@@ -175,6 +175,12 @@
 }
 
 @media (max-width: 1150px) {
+    .headercontact h2{
+        font-size: 1.5rem;
+        top: -10px;
+        left: 5px;
+    }
+
     .brandnamelogo {
         display: flex;
         margin-left: 0%;
@@ -272,6 +278,13 @@
 }
 
 @media (max-width: 1000px) {
+
+    .headercontact h2{
+        font-size: 1.5rem;
+        top: -10px;
+        left: 5px;
+    }
+
     .Navbar>.nav-items>a {
         margin: 15px;
     }
@@ -290,6 +303,7 @@
 }
 
 @media (max-width: 550px) {
+
     .socialmediaicons {
         width: 200px;
     }
@@ -341,7 +355,7 @@
     .headercontact h2{
         font-size: 1.25rem;
         top: -5px;
-        left: 15px;
+        left: 5px;
     }
 
     .Navbar>.nav-items {
@@ -391,8 +405,8 @@
 
     .headercontact h2{
         font-size: 1rem;
-        top: -6px;
-        left: 10px;
+        top: 0px;
+        left: 5px;
     }
 
     .nav-toggle>.bar {

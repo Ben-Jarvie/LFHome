@@ -68,7 +68,7 @@ const Carousel = ({ children }) => {
                 onClick={() => {
                     updateIndex(activeIndex - 1);
                 }}>
-                <FontAwesomeIcon icon={faArrowLeftLong}/>
+                <FontAwesomeIcon icon={faArrowLeftLong} className="leftarrow"/>
             </button>
         </div>
         <div className="indicators">
@@ -91,7 +91,7 @@ const Carousel = ({ children }) => {
                 onClick={() => {
                     updateIndex(activeIndex + 1);
                 }}>
-                <FontAwesomeIcon icon={faArrowRightLong}/>
+                <FontAwesomeIcon icon={faArrowRightLong} className="rightarrow"/>
             </button>
         </div>
     </div>

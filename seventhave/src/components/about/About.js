@@ -7,7 +7,7 @@ const About = () => {
         <div>
             <img 
                 src={Hero}
-                alt="Hero Image"
+                alt=""
                 className="imgcontainer"
             />
             <div className="aboutbuttoncontainer">
