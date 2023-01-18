@@ -365,6 +365,11 @@
 }
 
 @media (max-width: 450px) {
+    .Navbar>.nav-items.open {
+        margin-left: -0.1px;
+        margin-top: 5rem;
+    }
+    
     .socialmediaicons {
         width: 120px;
     }
