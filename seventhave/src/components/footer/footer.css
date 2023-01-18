@@ -1,0 +1,60 @@
+.footerdiv {
+    background-color: #FC6A03;
+    padding: 1%;
+    text-align: center;
+}
+
+.footercontact {
+    height: 110px;
+}
+
+.footersocialmediaicons {
+    display: flex;
+    justify-content: center;
+    height: 40px;
+}
+
+.footerfacebook {
+    width: 2em;
+    height: 2em;
+    color: white;
+    margin: 15px;
+}
+
+.footerfacebook:hover {
+    width: 2.5em;
+    height: 2.5;
+    color: #4267B2
+}
+
+.footerinstagram {
+    width: 2em;
+    height: 2em;
+    color: white;
+    margin: 15px;
+}
+
+.footerinstagram:hover {
+    width: 2.5em;
+    height: 2.5em;
+    color: #833AB4
+}
+
+.footeremail {
+    width: 2em;
+    height: 2em;
+    color: white;
+    margin: 15px;
+}
+
+.footeremail:hover {
+    width: 2.5em;
+    height: 2.5em;
+    color: black
+}
+
+.footertext {
+    display: flex;
+    flex-direction: column;
+    
+}
