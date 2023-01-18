@@ -27,10 +27,10 @@ life-enhancing relationships, services, and environments.
       </div>
       </div>
       <div className='footertext'>
-            <p>
+            <p className='address'>
                 5595 County Road Z, West Bend, WI 53095 | (262) 306-2100
             </p>
-            <p>
+            <p className='copyright'>
                 Copyright © 2023 Cedar Community // All rights reserved.
             </p>
             <div>
