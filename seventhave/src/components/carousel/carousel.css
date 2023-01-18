@@ -16,7 +16,7 @@
     justify-content: center;
     height: 200px;
     background-color: papayawhip;
-    color: #fff;
+    color: black;
     margin-top: 2%;
     margin-bottom: 2%;
   }
@@ -30,8 +30,8 @@
   .indicators > button {
     margin: 5px;
     border-radius: 25px;
-    color: black;
-    background-color: white;
+    color: whitesmoke;
+    background-color: black;
     margin-bottom: 10%;
   }
   
