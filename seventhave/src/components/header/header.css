@@ -251,11 +251,12 @@
     .nav-toggle>.bar::before {
         transform: translateY(-8px);
         width: 30px;
-        right: 0;
+        right: 1px;
     }
     .nav-toggle>.bar::after {
         width: 30px;
         transform: translateY(8px);
+        right: 1px;
     }
     .nav-toggle.open>.bar {
         transform: translateX(-40px);
