@@ -1,0 +1,89 @@
+.gallery {
+    padding-top: 2%;
+    overflow: hidden;
+    background-color: papayawhip;
+  }
+  
+  .galleryinner {
+    white-space: nowrap;
+    transition: transform 0.3s;
+    background-color: papayawhip;
+  }
+  
+  .gallery-item {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    background-color: papayawhip;
+    color: black;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+  
+  .indicators {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .indicators > button {
+    margin: 5px;
+    border-radius: 25px;
+    color: whitesmoke;
+    background-color: black;
+    margin-bottom: 12%;
+  }
+  
+  .indicators > button.active {
+    background-color: #FC6A03;
+  }
+
+  .arrowsandindicators {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: papayawhip;
+    height: 6vh;
+    margin-bottom: 2%;
+  }
+
+  .nextbuttoncontainer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 10%;
+  }
+
+  .nextbutton {
+    border: none;
+    background-color: papayawhip;
+  }
+
+  .rightarrow {
+    height: 35px;
+    width: 35px;
+  }
+
+  .prevbuttoncontainer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 10%;
+  }
+
+  .prevbutton {
+    border: none;
+    background-color: papayawhip;
+  }
+
+  .leftarrow {
+    height: 35px;
+    width: 35px;
+  }
+
+  @media (max-width: 1024px) {
+    .arrowsandindicators {
+        display: none;
+    }
+  }
