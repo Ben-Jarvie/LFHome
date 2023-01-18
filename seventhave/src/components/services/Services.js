@@ -16,7 +16,7 @@ const Services = () => {
                 Lectus sit amet est placerat. Aliquam sem et tortor consequat id porta. Scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam. Porttitor massa id neque aliquam vestibulum. Orci porta non pulvinar neque laoreet suspendisse interdum. Faucibus turpis in eu mi bibendum. Ante in nibh mauris cursus mattis. Lacus suspendisse faucibus interdum posuere lorem. Fermentum et sollicitudin ac orci phasellus egestas tellus rutrum. Feugiat in ante metus dictum at tempor. Quam elementum pulvinar etiam non quam.
             </p>
             <div className="Servicesbuttoncontainer">
-                <button className="getintouchbutton">Get In Touch</button>
+                <button className="getintouchbutton">Schedule A Tour</button>
             </div>
             </div>
             </div>
