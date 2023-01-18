@@ -30,6 +30,22 @@ const Carousel = ({ children }) => {
                     return React.cloneElement(child, { width: "100%"});
                 })}
             </div>
+            <div className='indicators'>
+                <button 
+                    onClick={() => {
+                        updateIndex(activeIndex - 1);
+                    }}
+                >
+                    Prev
+                </button>
+                <button
+                    onClick={() => {
+                        updateIndex(activeIndex + 1);
+                    }}
+                >
+                    Next
+                </button>
+            </div>
         </div>
     );
 };
